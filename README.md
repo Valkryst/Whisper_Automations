@@ -1,6 +1,6 @@
 ## Installation
 
-All of these scripts assume that you have followed [my guide](https://www.valkryst.com/posts/42). These scripts should be places alongside the `whisper`, `whisper-large-v2`, and `whisper.cpp` repository folders.
+All of these scripts assume that you have followed [my guide](https://www.valkryst.com/posts/42). These scripts should be placed alongside the `whisper`, `whisper-large-v2`, and `whisper.cpp` repository folders.
 
 To download this script and its dependencies, copy and paste the following commands into your bash terminal.
 
