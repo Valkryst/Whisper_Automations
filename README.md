@@ -12,9 +12,9 @@ sudo apt install ffmpeg wget
 
 
 # Download Scripts
-sudo wget https://github.com/Valkryst/Whisper_Automations/extract_audio.sh
-sudo wget https://github.com/Valkryst/Whisper_Automations/generate_subtitles.sh
-sudo wget https://github.com/Valkryst/Whisper_Automations/regenerate_model.sh
+sudo wget https://github.com/Valkryst/Whisper_Automations/blob/main/extract_audio.sh
+sudo wget https://github.com/Valkryst/Whisper_Automations/blob/main/generate_subtitles.sh
+sudo wget https://github.com/Valkryst/Whisper_Automations/blob/main/regenerate_model.sh
 
 
 
