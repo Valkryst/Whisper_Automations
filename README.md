@@ -12,16 +12,16 @@ sudo apt install ffmpeg wget
 
 
 # Download Scripts
-sudo wget https://github.com/Valkryst/Whisper_Automations/blob/main/extract_audio.sh
-sudo wget https://github.com/Valkryst/Whisper_Automations/blob/main/generate_subtitles.sh
-sudo wget https://github.com/Valkryst/Whisper_Automations/blob/main/regenerate_model.sh
+wget https://github.com/Valkryst/Whisper_Automations/blob/main/extract_audio.sh
+wget https://github.com/Valkryst/Whisper_Automations/blob/main/generate_subtitles.sh
+wget https://github.com/Valkryst/Whisper_Automations/blob/main/regenerate_model.sh
 
 
 
 # Modify the script permissions to allow them to be run.
-sudo chmod +x extract_audio.sh
-sudo chmod +x generate_subtitles.sh
-sudo chmod +x regenerate_model.sh
+chmod +x extract_audio.sh
+chmod +x generate_subtitles.sh
+chmod +x regenerate_model.sh
 ```
 
 ## Usage
