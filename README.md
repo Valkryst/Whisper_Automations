@@ -1,6 +1,6 @@
 ## Installation
 
-All of these scripts assume that you have followed [my guide](https://www.valkryst.com/posts/42) to installing and using Whisper. These scripts should be placed alongside the `whisper`, `whisper-large-v2`, and `whisper.cpp` repository folders.
+All of these scripts assume that you have followed [my guide](https://www.valkryst.com/posts/42) to installing and using Whisper. These scripts should be placed alongside the `whisper`, `whisper-large-v3`, and `whisper.cpp` repository folders.
 
 To download these scripts and their dependencies, copy and paste the following commands into your bash terminal.
 
@@ -26,7 +26,7 @@ chmod +x regenerate_model.sh
 
 ## Usage
 
-1. If it has been some time since you have pulled the latest `whisper-large-v2` model, you can run `./regenerate_model.sh` to update and regenerate it.
+1. If it has been some time since you have pulled the latest `whisper-large-v3` model, you can run `./regenerate_model.sh` to update and regenerate it.
 2. Copy your video files into the same directory as the scripts, and run `./extract_audio.sh`. This will extract _only_ the first audio track of each video file in the directory, and it will convert that audio track to a 16kHz _.wav_ file as required by Whisper.
 3. Run `./generate_subtitles.sh` to generate an `.srt` file for each of the `.wav` files. This may take a significant amount of time.
 
