@@ -10,14 +10,14 @@ touch "$lockfile"
 
 
 # Update Sources
-cd whisper-large-v2
+cd whisper-large-v3
 git pull
 
 
 
 # Regenerate Model
 cd ../
-python3 ./whisper.cpp/models/convert-h5-to-ggml.py ./whisper-large-v2 ./whisper .
+python3 ./whisper.cpp/models/convert-h5-to-ggml.py ./whisper-large-v3 ./whisper .
 
 
 
